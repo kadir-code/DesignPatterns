@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{968AC08B-1819-43AC-B779-7E1C407867D0}</ProjectGuid>
+    <ProjectGuid>{AD7D4908-B63A-4F6D-8725-BA2E2B27E4C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DecoratorDesignPattern</RootNamespace>
-    <AssemblyName>DecoratorDesignPattern</AssemblyName>
+    <RootNamespace>PrototypeDesignPattern</RootNamespace>
+    <AssemblyName>PrototypeDesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteDecorator\CircleEdge.cs" />
-    <Compile Include="Concrete\Circle.cs" />
-    <Compile Include="ConcreteDecorator\CircleFill.cs" />
-    <Compile Include="Abstract\Decorator.cs" />
-    <Compile Include="Interface\IShape.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

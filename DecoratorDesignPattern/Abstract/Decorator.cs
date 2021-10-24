@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorDesignPattern.Decorators
 {
-    public class Decorator : IShape
+    public abstract class Decorator : IShape
     {
         readonly IShape _shape=null;
         public Decorator(IShape shape)

@@ -11,7 +11,7 @@ namespace AbstractFactory.Factory
     {
         public IPhone CreatePhone(string model, string battery)
         {
-            return new IPhone("xr","500mah");
+            return  IPhone("xr","500mah");
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{968AC08B-1819-43AC-B779-7E1C407867D0}</ProjectGuid>
+    <ProjectGuid>{A3D7E250-FFBD-44FF-B5F8-0C33606AA598}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DecoratorDesignPattern</RootNamespace>
-    <AssemblyName>DecoratorDesignPattern</AssemblyName>
+    <RootNamespace>MediatorDesignPattern</RootNamespace>
+    <AssemblyName>MediatorDesignPattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConcreteDecorator\CircleEdge.cs" />
-    <Compile Include="Concrete\Circle.cs" />
-    <Compile Include="ConcreteDecorator\CircleFill.cs" />
-    <Compile Include="Abstract\Decorator.cs" />
-    <Compile Include="Interface\IShape.cs" />
+    <Compile Include="Abstract\BaseUser.cs" />
+    <Compile Include="Abstract\Mediator.cs" />
+    <Compile Include="Concrete\ConcreteMediator.cs" />
+    <Compile Include="Concrete\User1.cs" />
+    <Compile Include="Concrete\User2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
