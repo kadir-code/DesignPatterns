@@ -1,5 +1,6 @@
 ﻿using CoRDesignPatternApplication.Abstract;
 using CoRDesignPatternApplication.Concrete;
+using CoRDesignPatternApplication.Enum;
 using CoRDesignPatternApplication.Model;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,7 @@ namespace CoRDesignPatternApplication
 
             foreach (OrderBill item in orderBills)
             {
+                
                 employee.NextProcess(item);
             }
 

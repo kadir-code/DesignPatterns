@@ -1,4 +1,6 @@
 ﻿using CoRDesignPatternApplication.Abstract;
+using CoRDesignPatternApplication.Enum;
+using CoRDesignPatternApplication.Interface;
 using CoRDesignPatternApplication.Model;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CoRDesignPatternApplication.Concrete
 {
-    public class EmployeeHandler : OrderHandler
+    public class EmployeeHandler : OrderHandler,IResponse
     {
         public override void NextProcess(OrderBill orderBill)
         {
@@ -20,6 +22,11 @@ namespace CoRDesignPatternApplication.Concrete
             {
                 _orderHandler.NextProcess(orderBill);
             }
+        }
+
+        public Response Response(OrderBill orderBill)
+        {
+            return orderBill.Price > 100 ? Enum.Response.Denied : Enum.Response.Approved;
         }
     }
 }

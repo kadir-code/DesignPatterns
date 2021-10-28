@@ -1,4 +1,6 @@
-﻿using CoRDesignPatternApplication.Model;
+﻿using CoRDesignPatternApplication.Enum;
+using CoRDesignPatternApplication.Interface;
+using CoRDesignPatternApplication.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +17,6 @@ namespace CoRDesignPatternApplication.Abstract
             _orderHandler = orderHandler;
         }
         public abstract void NextProcess(OrderBill orderBill);
+
     }
 }

@@ -47,6 +47,8 @@
     <Compile Include="Concrete\EmployeeHandler.cs" />
     <Compile Include="Concrete\ExecutiveHandler.cs" />
     <Compile Include="Concrete\ManagerHandler.cs" />
+    <Compile Include="Enum\Response.cs" />
+    <Compile Include="Interface\IResponse.cs" />
     <Compile Include="Model\OrderBill.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
