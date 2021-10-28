@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorDesignPattern", "Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoRDesignPattern", "CoRDesignPattern\CoRDesignPattern.csproj", "{A734EDAE-18BE-4C13-B107-88A2E48C2133}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoRDesignPatternApplication", "CoRDesignPatternApplication\CoRDesignPatternApplication.csproj", "{EB5447EE-DE78-4BD9-B504-DBF77DCDE279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A734EDAE-18BE-4C13-B107-88A2E48C2133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A734EDAE-18BE-4C13-B107-88A2E48C2133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A734EDAE-18BE-4C13-B107-88A2E48C2133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5447EE-DE78-4BD9-B504-DBF77DCDE279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5447EE-DE78-4BD9-B504-DBF77DCDE279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5447EE-DE78-4BD9-B504-DBF77DCDE279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5447EE-DE78-4BD9-B504-DBF77DCDE279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{EB550418-5560-46E4-9F3A-95B96F734B47} = {BC5AE366-983C-408E-8C1E-253905F87C60}
 		{A3D7E250-FFBD-44FF-B5F8-0C33606AA598} = {78AB65D7-727C-47CD-99E4-8A0A922B6550}
 		{A734EDAE-18BE-4C13-B107-88A2E48C2133} = {78AB65D7-727C-47CD-99E4-8A0A922B6550}
+		{EB5447EE-DE78-4BD9-B504-DBF77DCDE279} = {78AB65D7-727C-47CD-99E4-8A0A922B6550}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04EE2CDC-F0CA-4892-988E-EDBEA09EDFDC}
