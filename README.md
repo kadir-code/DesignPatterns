@@ -91,9 +91,22 @@ Since creating objects with the new operator has a cost, this is one of the desi
 The singleton design pattern belonging to the Creational design patterns group controls the generation of an object until the application pool is closed, and that it does not have a single instance. At the same time, this object is accessible from outside the class. It is used when only one instance of a class is desired at a time. The constructor method of the class to which the singleton pattern will be applied is defined as private and a static class of its own type is defined inside the class. A method or property that will provide access to this defined class is also added to the class.
 
 
+## Chain Of Responsibility Design Pattern
+
+[Go To Example](https://github.com/kadir-code/DesignPatterns/tree/master/CoRDesignPattern)
+
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/desigmpatternuml1.png" width="500" height="330" />
+
+Chain of Responsibility pattern is a design pattern that belongs to the behavioral patterns group and has emerged as a solution for redirecting and handling processes or requesting-confirming processes that belong to the essentially successive work sequence.
+
+Where to use?
+ 
+
+* When you want to decouple a request’s sender and receiver
+* Multiple objects, determined at runtime, are candidates to handle a request
+* When you want to issue a request to one of several objects without specifying the receiver explicitly.
 
 
 
 
-
-
+ 
