@@ -106,7 +106,13 @@ Where to use?
 * Multiple objects, determined at runtime, are candidates to handle a request
 * When you want to issue a request to one of several objects without specifying the receiver explicitly.
 
+## Adapter Design Pattern
 
+[Go To Example](https://github.com/kadir-code/DesignPatterns/tree/master/AdapterPattern)
+
+<img src="https://www.tutorialspoint.com/design_pattern/images/adapter_pattern_uml_diagram.jpg" width="500" height="330" />
+
+Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern combines the capability of two independent interfaces.This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces.
 
 
  
