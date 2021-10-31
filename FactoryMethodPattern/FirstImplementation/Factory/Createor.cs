@@ -1,4 +1,5 @@
-﻿using FactoryMethodPattern.Enum;
+﻿using FactoryMethodPattern.Concrete;
+using FactoryMethodPattern.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,19 +21,19 @@ namespace FactoryMethodPattern.Factory
         #region First implementation return Screen
         public Screen ScreenFactory(ScreenModel screenModel)
         {
-            Screen screen = null;//Get the screen reference
-            switch (screenModel)
+            if (screenModel==ScreenModel.Desktop)
             {
-                case ScreenModel.Desktop:
-                    break;
-                case ScreenModel.web:
-                    break;
-                case ScreenModel.Mobile:
-                    break;
-                default:
-                    break;
+                return new DesktopScreen();
             }
-            return screen;
+            else if (screenModel==ScreenModel.Mobile)
+            {
+                return new MobileScreen();
+            }
+            else
+            {
+                return new WebScreen();
+            }
+           
         }
         #endregion
 

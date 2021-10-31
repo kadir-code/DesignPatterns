@@ -16,15 +16,19 @@ namespace FactoryMethodPattern
         {
             #region First implementation
 
-            Createor createor = new Createor();
-            Screen screen = createor.ScreenFactory(Enum.ScreenModel.Desktop);
-            screen.Draw();
-        }
-        #endregion
+            //Createor createor = new Createor();
+            //Screen screen = createor.ScreenFactory(Enum.ScreenModel.Desktop);
+            //screen.Draw();
 
-        #region Phone example
-        IPhone phone = PhoneFactory.GetPhone("Iphone","560mah");
-        IPhone phone1 = PhoneFactory.GetPhone("Smsung","1000mah");
-        #endregion
+            #endregion
+
+            #region Phone example
+            IPhone phone = PhoneFactory.GetPhone("Iphone", "560mah");
+            IPhone phone1 = PhoneFactory.GetPhone("Samsung", "1000mah");
+            Console.WriteLine(phone);
+            Console.WriteLine(phone1);
+            #endregion
+            Console.Read();
+        }
     }
 }

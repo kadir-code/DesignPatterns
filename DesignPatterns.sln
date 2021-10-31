@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{BBB07D4C-2053-41CE-8992-71C11CFA5AC8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDDDDDStructuralPatterns", "DDDDDDStructuralPatterns", "{BC5AE366-983C-408E-8C1E-253905F87C60}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{BC5AE366-983C-408E-8C1E-253905F87C60}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehaviouralPatterns", "BehaviouralPatterns", "{78AB65D7-727C-47CD-99E4-8A0A922B6550}"
 EndProject
