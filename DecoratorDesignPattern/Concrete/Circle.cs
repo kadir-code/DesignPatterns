@@ -11,7 +11,7 @@ namespace DecoratorDesignPattern.Concrete
     {
         public void Draw(int size, int location)
         {
-            Console.WriteLine("Circle Drawed");
+            Console.Write("Circle Drawed  ");
         }
         /*
          * Only the edges of the circle can be colored,

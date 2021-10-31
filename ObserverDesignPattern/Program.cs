@@ -16,9 +16,9 @@ namespace ObserverDesignPattern
             product.AddObserver(new EmployeeObserver());
             product.AddObserver(new ManagerObserver());
 
-            product.Name = "Lamp";
-            product.Code = "12lm3";
-            product.Category = "Home Stuff";
+            //product.Name = "Lamp";
+            //product.Code = "12lm3";
+            //product.Category = "Home Stuff";
             product.Produce = true;
 
             Console.ReadKey(true);

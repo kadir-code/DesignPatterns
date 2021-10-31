@@ -16,7 +16,7 @@ namespace DecoratorDesignPattern.Decorators
         }
         private void ColorFill()
         {
-            Console.WriteLine("Colored inside circle");
+            Console.Write("Colored inside circle  ");
         }
         public override void Draw(int size, int location)
         {

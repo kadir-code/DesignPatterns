@@ -13,17 +13,17 @@ namespace DecoratorDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("circle");
+            //Console.WriteLine("circle");
             Circle circle = new Circle();
-            circle.Draw(10,100);
+            //circle.Draw(10,100);
 
-            CircleEdge circleEdge = new CircleEdge(circle);
+            CircleEdge circleEdge = new CircleEdge(new CircleFill(circle));
             circleEdge.Draw(20, 20);
 
-            CircleFill circleFill = new CircleFill(circle);
-            circleEdge.Draw(12,82);
+            //CircleFill circleFill = new CircleFill(circle);
+            //circleFill.Draw(12,82);
 
-            Console.ReadLine();
+            Console.Read();
         }
     }
 }

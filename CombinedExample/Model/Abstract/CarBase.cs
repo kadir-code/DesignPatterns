@@ -13,7 +13,7 @@ namespace CombinedExample.Model.Abstract
         public decimal Price { get; set; }
 
 
-       bool _produce;
+       bool _produce=false;
 
         public bool Produce
         {

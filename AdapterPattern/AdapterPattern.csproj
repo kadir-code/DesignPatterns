@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{32A669FC-6C4B-4C08-B9E6-BE3A8259D3D4}</ProjectGuid>
+    <ProjectGuid>{60DAADB2-4841-42C0-839D-47DB49FA66B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BaseKullanımı</RootNamespace>
-    <AssemblyName>BaseKullanımı</AssemblyName>
+    <RootNamespace>AdapterPattern</RootNamespace>
+    <AssemblyName>AdapterPattern</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A.cs" />
-    <Compile Include="B.cs" />
+    <Compile Include="Adapter\Audio.cs" />
+    <Compile Include="Adapter\MediaAdapter.cs" />
+    <Compile Include="Concrete\Mp4Player.cs" />
+    <Compile Include="Concrete\VideoPlayer.cs" />
+    <Compile Include="Interface\IAdvancedMediaPlayer.cs" />
+    <Compile Include="Interface\IMediaPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
